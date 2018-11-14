@@ -22,6 +22,8 @@ namespace MealPlanOrder
             public string name { get; set; }
             public decimal prise { get; set; }
             public string type { get; set; }
+
+            // The 
             public void inputInfo(string name, decimal prise)
             {
                 this.name = name;
@@ -52,6 +54,8 @@ namespace MealPlanOrder
         public MealPlanOrder()
         {
             InitializeComponent();
+
+            // Setup the list of meals for the menu
             setMenu();
         }
 
@@ -125,7 +129,7 @@ namespace MealPlanOrder
             List<DishInfo> guestOrderList = new List<DishInfo>();
             guestOrderList.Clear();
 
-
+            // Check whether the meal was selected or not
             lblBreakfastTypeReport.Text = "";
             if (cbbBreakfast.SelectedIndex < 0)
             {
@@ -134,25 +138,7 @@ namespace MealPlanOrder
                 return;
             }
             guestOrderList.Add(breakfastMealList[cbbBreakfast.SelectedIndex]);
-
-            lblLunchTypeReport.Text = "";
-            if (cbbLunch.SelectedIndex < 0)
-            {
-                lblLunchTypeReport.Text = "Invalid Meal Selection.";
-                lblLunchTypeReport.ForeColor = Color.Red;
-                return;
-            }
-            guestOrderList.Add(lunchMealList[cbbLunch.SelectedIndex]);
-
-            lblDinnerTypeReport.Text = "";
-            if (cbbDinner.SelectedIndex < 0)
-            {
-                lblDinnerTypeReport.Text = "Invalid Meal Selection.";
-                lblDinnerTypeReport.ForeColor = Color.Red;
-                return;
-            }
-            guestOrderList.Add(dinnerMealList[cbbDinner.SelectedIndex]);
-
+            
             // Check number of the Breakfast Quantity
             lblBreakfastQuanReport.Text = "";
             if (!IsNumber(txtBreakfastQuantity.Text))
@@ -163,6 +149,16 @@ namespace MealPlanOrder
             }
             decimal breakfastQuantity = Convert.ToDecimal(txtBreakfastQuantity.Text);
 
+            // Check whether the meal was selected or not
+            lblLunchTypeReport.Text = "";
+            if (cbbLunch.SelectedIndex < 0)
+            {
+                lblLunchTypeReport.Text = "Invalid Meal Selection.";
+                lblLunchTypeReport.ForeColor = Color.Red;
+                return;
+            }
+            guestOrderList.Add(lunchMealList[cbbLunch.SelectedIndex]);
+            
             // Check number of the Lunch Quantity
             lblLunchQuanReport.Text = "";
             if (!IsNumber(txtLunchQuantity.Text))
@@ -173,6 +169,16 @@ namespace MealPlanOrder
             }
             decimal lunchQuantity = Convert.ToDecimal(txtLunchQuantity.Text);
 
+            // Check whether the meal was selected or not
+            lblDinnerTypeReport.Text = "";
+            if (cbbDinner.SelectedIndex < 0)
+            {
+                lblDinnerTypeReport.Text = "Invalid Meal Selection.";
+                lblDinnerTypeReport.ForeColor = Color.Red;
+                return;
+            }
+            guestOrderList.Add(dinnerMealList[cbbDinner.SelectedIndex]);
+            
             // Check number of the Dinner Quantity
             lblDinnerQuanReport.Text = "";
             if (!IsNumber(txtDinnerQuantity.Text))
@@ -197,6 +203,5 @@ namespace MealPlanOrder
                 
             
         }
-        
     }
 }

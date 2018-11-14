@@ -56,9 +56,9 @@
             // 
             // btnOrderNow
             // 
-            this.btnOrderNow.Location = new System.Drawing.Point(207, 496);
+            this.btnOrderNow.Location = new System.Drawing.Point(207, 474);
             this.btnOrderNow.Name = "btnOrderNow";
-            this.btnOrderNow.Size = new System.Drawing.Size(159, 45);
+            this.btnOrderNow.Size = new System.Drawing.Size(396, 57);
             this.btnOrderNow.TabIndex = 0;
             this.btnOrderNow.Text = "Order Now";
             this.btnOrderNow.UseVisualStyleBackColor = true;
@@ -67,7 +67,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 53);
+            this.label1.Location = new System.Drawing.Point(94, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 25);
             this.label1.TabIndex = 1;
@@ -76,7 +76,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 140);
+            this.label2.Location = new System.Drawing.Point(98, 144);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 25);
             this.label2.TabIndex = 2;
@@ -85,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 231);
+            this.label3.Location = new System.Drawing.Point(98, 235);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 25);
             this.label3.TabIndex = 3;
@@ -157,7 +157,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(67, 356);
+            this.label6.Location = new System.Drawing.Point(99, 325);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 25);
             this.label6.TabIndex = 12;
@@ -166,7 +166,7 @@
             // lblSubtotal
             // 
             this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Location = new System.Drawing.Point(164, 356);
+            this.lblSubtotal.Location = new System.Drawing.Point(202, 325);
             this.lblSubtotal.Name = "lblSubtotal";
             this.lblSubtotal.Size = new System.Drawing.Size(0, 25);
             this.lblSubtotal.TabIndex = 13;
@@ -174,7 +174,7 @@
             // lblTax
             // 
             this.lblTax.AutoSize = true;
-            this.lblTax.Location = new System.Drawing.Point(164, 399);
+            this.lblTax.Location = new System.Drawing.Point(202, 368);
             this.lblTax.Name = "lblTax";
             this.lblTax.Size = new System.Drawing.Size(0, 25);
             this.lblTax.TabIndex = 15;
@@ -182,7 +182,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(67, 399);
+            this.label8.Location = new System.Drawing.Point(99, 368);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(48, 25);
             this.label8.TabIndex = 14;
@@ -191,7 +191,7 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(164, 441);
+            this.lblTotal.Location = new System.Drawing.Point(202, 410);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(0, 25);
             this.lblTotal.TabIndex = 17;
@@ -199,7 +199,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(67, 441);
+            this.label10.Location = new System.Drawing.Point(99, 410);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 25);
             this.label10.TabIndex = 16;
@@ -257,7 +257,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(748, 560);
+            this.ClientSize = new System.Drawing.Size(749, 559);
             this.Controls.Add(this.lblDinnerTypeReport);
             this.Controls.Add(this.lblLunchTypeReport);
             this.Controls.Add(this.lblBreakfastTypeReport);
@@ -282,6 +282,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOrderNow);
+            this.MaximumSize = new System.Drawing.Size(775, 630);
+            this.MinimumSize = new System.Drawing.Size(775, 630);
             this.Name = "MealPlanOrder";
             this.Text = "Meal Plan Order";
             this.ResumeLayout(false);
@@ -297,24 +299,24 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox cbbBreakfast;
-        private System.Windows.Forms.ComboBox cbbLunch;
-        private System.Windows.Forms.ComboBox cbbDinner;
-        private System.Windows.Forms.TextBox txtBreakfastQuantity;
-        private System.Windows.Forms.TextBox txtLunchQuantity;
-        private System.Windows.Forms.TextBox txtDinnerQuantity;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label lblSubtotal;
-        private System.Windows.Forms.Label lblTax;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lblBreakfastQuanReport;
-        private System.Windows.Forms.Label lblLunchQuanReport;
-        private System.Windows.Forms.Label lblDinnerQuanReport;
-        private System.Windows.Forms.Label lblDinnerTypeReport;
-        private System.Windows.Forms.Label lblLunchTypeReport;
+        private System.Windows.Forms.ComboBox cbbBreakfast;
         private System.Windows.Forms.Label lblBreakfastTypeReport;
+        private System.Windows.Forms.ComboBox cbbLunch;
+        private System.Windows.Forms.Label lblLunchTypeReport;
+        private System.Windows.Forms.ComboBox cbbDinner;
+        private System.Windows.Forms.Label lblDinnerTypeReport;
+        private System.Windows.Forms.TextBox txtBreakfastQuantity;
+        private System.Windows.Forms.Label lblBreakfastQuanReport;
+        private System.Windows.Forms.TextBox txtLunchQuantity;
+        private System.Windows.Forms.Label lblLunchQuanReport;
+        private System.Windows.Forms.TextBox txtDinnerQuantity;
+        private System.Windows.Forms.Label lblDinnerQuanReport;
+        private System.Windows.Forms.Label lblTax;
+        private System.Windows.Forms.Label lblSubtotal;
+        private System.Windows.Forms.Label lblTotal;
     }
 }
 

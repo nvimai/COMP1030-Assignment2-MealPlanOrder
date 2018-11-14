@@ -8,3 +8,14 @@ C:\Users\Nhat\OneDrive - Georgian College\Post_Secondary\Programming_Fundamental
 C:\Users\Nhat\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\MealPlanOrder\MealPlanOrder\bin\Debug\MealPlanOrder.pdb
 C:\Users\Nhat\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\MealPlanOrder\MealPlanOrder\obj\Debug\MealPlanOrder.exe
 C:\Users\Nhat\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\MealPlanOrder\MealPlanOrder\obj\Debug\MealPlanOrder.pdb
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\bin\Debug\MealPlanOrder.exe.config
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\bin\Debug\MealPlanOrder.exe
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\bin\Debug\MealPlanOrder.pdb
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.csprojAssemblyReference.cache
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.MealPlanOrder.resources
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.Properties.Resources.resources
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.csproj.GenerateResource.cache
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.exe
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.pdb
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.Login.resources
