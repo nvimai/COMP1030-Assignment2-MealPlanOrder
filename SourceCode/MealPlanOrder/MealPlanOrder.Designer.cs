@@ -68,7 +68,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 137);
+            this.label1.Location = new System.Drawing.Point(65, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 25);
             this.label1.TabIndex = 1;
@@ -77,7 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(88, 223);
+            this.label2.Location = new System.Drawing.Point(65, 223);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 25);
             this.label2.TabIndex = 2;
@@ -86,7 +86,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(88, 314);
+            this.label3.Location = new System.Drawing.Point(65, 314);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 25);
             this.label3.TabIndex = 3;
@@ -95,7 +95,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(187, 105);
+            this.label4.Location = new System.Drawing.Point(164, 105);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 25);
             this.label4.TabIndex = 4;
@@ -104,7 +104,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(500, 105);
+            this.label5.Location = new System.Drawing.Point(617, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 25);
             this.label5.TabIndex = 5;
@@ -113,44 +113,44 @@
             // cbbBreakfast
             // 
             this.cbbBreakfast.FormattingEnabled = true;
-            this.cbbBreakfast.Location = new System.Drawing.Point(190, 133);
+            this.cbbBreakfast.Location = new System.Drawing.Point(167, 133);
             this.cbbBreakfast.Name = "cbbBreakfast";
-            this.cbbBreakfast.Size = new System.Drawing.Size(309, 33);
+            this.cbbBreakfast.Size = new System.Drawing.Size(437, 33);
             this.cbbBreakfast.TabIndex = 6;
             // 
             // cbbLunch
             // 
             this.cbbLunch.FormattingEnabled = true;
-            this.cbbLunch.Location = new System.Drawing.Point(190, 219);
+            this.cbbLunch.Location = new System.Drawing.Point(167, 219);
             this.cbbLunch.Name = "cbbLunch";
-            this.cbbLunch.Size = new System.Drawing.Size(309, 33);
+            this.cbbLunch.Size = new System.Drawing.Size(437, 33);
             this.cbbLunch.TabIndex = 7;
             // 
             // cbbDinner
             // 
             this.cbbDinner.FormattingEnabled = true;
-            this.cbbDinner.Location = new System.Drawing.Point(190, 310);
+            this.cbbDinner.Location = new System.Drawing.Point(167, 310);
             this.cbbDinner.Name = "cbbDinner";
-            this.cbbDinner.Size = new System.Drawing.Size(309, 33);
+            this.cbbDinner.Size = new System.Drawing.Size(437, 33);
             this.cbbDinner.TabIndex = 8;
             // 
             // txtBreakfastQuantity
             // 
-            this.txtBreakfastQuantity.Location = new System.Drawing.Point(505, 134);
+            this.txtBreakfastQuantity.Location = new System.Drawing.Point(622, 134);
             this.txtBreakfastQuantity.Name = "txtBreakfastQuantity";
             this.txtBreakfastQuantity.Size = new System.Drawing.Size(87, 31);
             this.txtBreakfastQuantity.TabIndex = 9;
             // 
             // txtLunchQuantity
             // 
-            this.txtLunchQuantity.Location = new System.Drawing.Point(505, 220);
+            this.txtLunchQuantity.Location = new System.Drawing.Point(622, 220);
             this.txtLunchQuantity.Name = "txtLunchQuantity";
             this.txtLunchQuantity.Size = new System.Drawing.Size(87, 31);
             this.txtLunchQuantity.TabIndex = 10;
             // 
             // txtDinnerQuantity
             // 
-            this.txtDinnerQuantity.Location = new System.Drawing.Point(505, 311);
+            this.txtDinnerQuantity.Location = new System.Drawing.Point(622, 311);
             this.txtDinnerQuantity.Name = "txtDinnerQuantity";
             this.txtDinnerQuantity.Size = new System.Drawing.Size(87, 31);
             this.txtDinnerQuantity.TabIndex = 11;
@@ -212,7 +212,7 @@
             // lblBreakfastQuanReport
             // 
             this.lblBreakfastQuanReport.AutoSize = true;
-            this.lblBreakfastQuanReport.Location = new System.Drawing.Point(500, 177);
+            this.lblBreakfastQuanReport.Location = new System.Drawing.Point(617, 177);
             this.lblBreakfastQuanReport.Name = "lblBreakfastQuanReport";
             this.lblBreakfastQuanReport.Size = new System.Drawing.Size(0, 25);
             this.lblBreakfastQuanReport.TabIndex = 18;
@@ -220,7 +220,7 @@
             // lblLunchQuanReport
             // 
             this.lblLunchQuanReport.AutoSize = true;
-            this.lblLunchQuanReport.Location = new System.Drawing.Point(500, 267);
+            this.lblLunchQuanReport.Location = new System.Drawing.Point(617, 267);
             this.lblLunchQuanReport.Name = "lblLunchQuanReport";
             this.lblLunchQuanReport.Size = new System.Drawing.Size(0, 25);
             this.lblLunchQuanReport.TabIndex = 19;
@@ -228,7 +228,7 @@
             // lblDinnerQuanReport
             // 
             this.lblDinnerQuanReport.AutoSize = true;
-            this.lblDinnerQuanReport.Location = new System.Drawing.Point(500, 359);
+            this.lblDinnerQuanReport.Location = new System.Drawing.Point(617, 359);
             this.lblDinnerQuanReport.Name = "lblDinnerQuanReport";
             this.lblDinnerQuanReport.Size = new System.Drawing.Size(0, 25);
             this.lblDinnerQuanReport.TabIndex = 20;
@@ -236,7 +236,7 @@
             // lblDinnerTypeReport
             // 
             this.lblDinnerTypeReport.AutoSize = true;
-            this.lblDinnerTypeReport.Location = new System.Drawing.Point(191, 359);
+            this.lblDinnerTypeReport.Location = new System.Drawing.Point(168, 359);
             this.lblDinnerTypeReport.Name = "lblDinnerTypeReport";
             this.lblDinnerTypeReport.Size = new System.Drawing.Size(0, 25);
             this.lblDinnerTypeReport.TabIndex = 23;
@@ -244,7 +244,7 @@
             // lblLunchTypeReport
             // 
             this.lblLunchTypeReport.AutoSize = true;
-            this.lblLunchTypeReport.Location = new System.Drawing.Point(191, 267);
+            this.lblLunchTypeReport.Location = new System.Drawing.Point(168, 267);
             this.lblLunchTypeReport.Name = "lblLunchTypeReport";
             this.lblLunchTypeReport.Size = new System.Drawing.Size(0, 25);
             this.lblLunchTypeReport.TabIndex = 22;
@@ -252,7 +252,7 @@
             // lblBreakfastTypeReport
             // 
             this.lblBreakfastTypeReport.AutoSize = true;
-            this.lblBreakfastTypeReport.Location = new System.Drawing.Point(191, 177);
+            this.lblBreakfastTypeReport.Location = new System.Drawing.Point(168, 177);
             this.lblBreakfastTypeReport.Name = "lblBreakfastTypeReport";
             this.lblBreakfastTypeReport.Size = new System.Drawing.Size(0, 25);
             this.lblBreakfastTypeReport.TabIndex = 21;
@@ -267,7 +267,7 @@
             this.label7.Location = new System.Drawing.Point(33, 27);
             this.label7.MinimumSize = new System.Drawing.Size(608, 29);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(608, 51);
+            this.label7.Size = new System.Drawing.Size(708, 51);
             this.label7.TabIndex = 24;
             this.label7.Text = "Meal Plan Order";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -276,7 +276,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 629);
+            this.ClientSize = new System.Drawing.Size(774, 629);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblDinnerTypeReport);
             this.Controls.Add(this.lblLunchTypeReport);
@@ -302,8 +302,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOrderNow);
-            this.MaximumSize = new System.Drawing.Size(700, 700);
-            this.MinimumSize = new System.Drawing.Size(700, 700);
+            this.MaximumSize = new System.Drawing.Size(800, 700);
+            this.MinimumSize = new System.Drawing.Size(800, 700);
             this.Name = "MealPlanOrder";
             this.Text = "Meal Plan Order";
             this.ResumeLayout(false);

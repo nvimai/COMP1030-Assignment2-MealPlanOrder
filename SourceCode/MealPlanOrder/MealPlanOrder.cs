@@ -41,7 +41,7 @@ namespace MealPlanOrder
 
             public string outputInfo()
             {
-                return name + " - " + string.Format(cultureInfo, "{0:C}", price);
+                return name + " - " + string.Format(cultureInfo, "{0:C}", price) + " - " + quantity + " left";
             }
         }
 
@@ -114,19 +114,23 @@ namespace MealPlanOrder
             }
         }
 
+        // 
+
         // Quantity checking
         public static bool IsValidQuantity(string stringTemp)
         {
             try
             {
-                // Declare the number temp and Convert the input value
-                // If the input value is not a number will goto the catch and return false
-                decimal temp = Convert.ToInt32(stringTemp);
+                // Declare the temp as a number 
+                uint temp;
 
-                // If the temp is a number and a valid quantity then return true
-                if(temp >= 0)
+                // If the input value is not a valid quantity will return false
+                if (uint.TryParse(stringTemp, out temp))
+                {
                     return true;
+                }
                 return false;
+                
             }
             catch (Exception)
             {
@@ -156,7 +160,7 @@ namespace MealPlanOrder
             lblBreakfastQuanReport.Text = "";
             if (!IsValidQuantity(txtBreakfastQuantity.Text))
             {
-                lblBreakfastQuanReport.Text = "Invalid number!";
+                lblBreakfastQuanReport.Text = "Invalid quantity!";
                 lblBreakfastQuanReport.ForeColor = Color.Red;
                 return;
             }
@@ -180,7 +184,7 @@ namespace MealPlanOrder
             lblLunchQuanReport.Text = "";
             if (!IsValidQuantity(txtLunchQuantity.Text))
             {
-                lblLunchQuanReport.Text = "Invalid number!";
+                lblLunchQuanReport.Text = "Invalid quantity!";
                 lblLunchQuanReport.ForeColor = Color.Red;
                 return;
             }
@@ -204,7 +208,7 @@ namespace MealPlanOrder
             lblDinnerQuanReport.Text = "";
             if (!IsValidQuantity(txtDinnerQuantity.Text))
             {
-                lblDinnerQuanReport.Text = "Invalid number!";
+                lblDinnerQuanReport.Text = "Invalid quantity!";
                 lblDinnerQuanReport.ForeColor = Color.Red;
                 return;
             }
