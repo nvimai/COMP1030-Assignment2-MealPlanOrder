@@ -16,8 +16,8 @@ namespace MealPlanOrder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MealPlanOrder());
-            //Application.Run(new Login());
+            //Application.Run(new MealPlanOrder());
+            Application.Run(new Login());
         }
     }
 }

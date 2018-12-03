@@ -19,3 +19,4 @@ C:\Users\Nhat\OneDrive - Georgian College\Post_Secondary\Programming_Fundamental
 \\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.exe
 \\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.pdb
 \\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\MealPlanOrder.Login.resources
+\\Mac\Home\Documents\OneDrive - Georgian College\Post_Secondary\Programming_Fundamentals_COMP1030\Assignment2\SourceCode\MealPlanOrder\obj\Debug\AverageGradeCalculator.Home.resources
